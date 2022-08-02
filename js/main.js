@@ -3,14 +3,14 @@ let name1 = "Uwielbiam JavaScript";
 let name2 = "Jestem świetnym programistą";
 
 
-function longerThan(lenght1, lenght2) {
+function longerThan(length1, length2) {
 
-    if (name1.length > name2.length) {
-        return `${name1}`;
-    } else if (name2.length > name1.length) {
-        return `${name2}`;
+    if (length1.length > length2.length) {
+        return length1;
+    } else if (length2.length > length1.length) {
+        return length2;
     } else {
-        "są równe";
+        return "są równe";
     }
 }
 
